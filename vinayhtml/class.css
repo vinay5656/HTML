@@ -1,0 +1,10 @@
+.special{
+    color: forestgreen;
+    font-size: larger;
+}
+a:hover{
+    background-color: grey;
+}
+body h1+p .special{
+    color:yellowgreen ;
+}

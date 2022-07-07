@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAYMENT METHOD</title>
+</head>
+<body style="background-color:wheat;">
+    <form action="">
+        <h1>Pament form</h1>
+        <h2>contect information</h2>
+        <head>CARD HOLDER NAME:*</head>
+        <input type="text"name="Full name"value="" required>
+        <br><br>
+        <head>DATE OF BIRTH:*</head>
+        <input type="date" name="DATE OF BIRTH" id="DATE OF BIRTH"value="" required>
+        <br><br>
+        <head>GENDER:</head>
+        <br>
+        <input type="radio"id="Gender"name="Gender"value="Male">
+        <table for="male">Male</table>
+        <input type="radio"id="Gender"name="Gender"value="Female">
+        <table for="female">Female</table>
+        <br>
+        <fieldset>
+            <legend>Valid Mobile Number:</legend>
+            <input type="number" name="Mobile Number" id="Mobile Number">
+            
+        </fieldset>
+        <fieldset>
+            <legend>Another Mobile Number:</legend>
+            <input type="number" name="Mobile Number" id="Mobile Number">
+            
+        </fieldset>
+        <br>
+        <head>PARMANENT ADDRESS:</head>
+        <br>
+        <textarea name="ADDRESS" id="ADDRESS" cols="30" rows="10"></textarea>
+        <br>
+        <head>CURRENT ADDRESS:*</head>
+        <br>
+        <textarea name="ADDRESS" id="ADDRESS" cols="30" rows="10" required></textarea>
+        <br><br>
+        <head>EMAIL:</head>
+        <input type="email"id="email"name="Email"value="" required>
+        <br>
+        <br>
+        <head>PINCODE:</head>
+        <input type="number"name="PINCODE"id="PINCODE"value=""required>
+        <H3>PAYMENT DETAILS:</H3>
+        <head>CARD TYPE:*</head>
+        <select name="CARD TYPE" id="CARD TYPE" required>
+            <OPtion value="CREDIT">CREDIT</OPtion>
+            <OPtion value="DEBIT">DEBIT</OPtion>
+            <OPtion value="VISA">VISA</OPtion>
+            <OPtion value="PLATIUM">PLATIUM</OPtion>
+        </select>
+        <br>
+        <br>
+        <head>CARD NUMBER:*</head>
+        <input type="number"name="CARD NUMBER"value=""required>
+        <br>
+        <br>
+        <head>EXPIRATION DATE:*</head>
+        <input type="date"name="DATE"id="DATE"value=""required>
+        <br>
+        <br>
+        <head>CVV:*</head>
+        <input type="password" name="cvv" id="cvv"value=""required>
+        <br>
+        <br>
+        <button>Pay Now</button>
+        <input type="submit" value="submit">
+    </form>
+
+
+    
+</body>
+</html>

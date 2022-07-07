@@ -1,0 +1,15 @@
+li[class~="a"]{
+    color:darkcyan
+}
+li[class~="b"]{
+    color:darkgoldenrod;
+}
+li[class~="c"]{
+    color:darkgreen;
+}
+li[class~="d"]{
+    color: darkorange;
+}
+li[class~="e"]{
+    color: darkviolet;
+}

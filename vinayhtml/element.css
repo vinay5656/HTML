@@ -1,0 +1,16 @@
+ol{
+    background-color: coral;
+}
+ol{
+    color: darkblue;
+}
+ul{
+    background-color: darkslategrey;
+}
+ul{
+    color: floralwhite;
+}
+
+    li{
+        list-style-type: decimal;
+    }
